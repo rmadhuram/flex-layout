@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background: #bbb;
+  height: 100px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.bottom {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  min-height: 0;
+}
+
+.v-nav {
+  width: 150px;
+  background: #ccc;
+}
+
+.content-2 {
+  flex-grow: 1;
+  overflow: scroll;
+}
